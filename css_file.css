@@ -1,0 +1,24 @@
+:root {
+  --background-color: #111416;
+  --text-color: #666;
+  --link-color: #f96;
+}
+
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+  filter: invert(100) hue-rotate(180deg);
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+img {
+  opacity: 0.65 !important;
+  transition: opacity 300ms ease;
+}
+
+img:hover {
+  opacity: 1 !important;
+}

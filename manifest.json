@@ -1,0 +1,19 @@
+{
+  "name": "Dark Mode",
+  "version": "1.0",
+  "description": "dark your web",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.zhihu.com/*"
+      ],
+      "css": ["css_file.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
