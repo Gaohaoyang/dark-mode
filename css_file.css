@@ -15,7 +15,8 @@ a {
 }
 
 img {
-  opacity: 0.65 !important;
+  filter: brightness(.8) contrast(1.2);
+  opacity: 0.8;
   transition: opacity 300ms ease;
 }
 
