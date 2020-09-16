@@ -16,10 +16,17 @@ a {
 
 img {
   filter: brightness(.8) contrast(1.2);
-  opacity: 0.8;
+  opacity: 0.3;
   transition: opacity 300ms ease;
+  filter: invert(100) hue-rotate(180deg);
 }
 
 img:hover {
   opacity: 1 !important;
 }
+video {
+  filter: invert(100) hue-rotate(180deg)!important;
+}
+/* .ZVideo-video {
+  filter: invert(100) hue-rotate(180deg)!important;
+} */
